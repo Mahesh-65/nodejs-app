@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pulse Labs — Modern SaaS Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#home">Pulse Labs</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#features">Features</a>
+          <a href="#status">API Status</a>
+          <a href="#footer">Contact</a>
+        </nav>
+        <a class="button button-primary" href="#status">Check Status</a>
+      </header>
+
+      <main>
+        <section id="home" class="hero-section">
+          <div class="hero-copy">
+            <span class="eyebrow">Enterprise-ready interface</span>
+            <h1>Beautiful SaaS experiences for teams that need speed and polish.</h1>
+            <p>Launch a professional product landing page with a premium feel, intuitive layout, and rich interactions—built entirely with modern HTML, CSS, and JavaScript.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#status">Get Started</a>
+              <a class="button button-ghost" href="#features">Our Features</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="visual-card">
+              <div class="visual-tag">Realtime analytics</div>
+              <div class="visual-preview">
+                <div class="chart-grid">
+                  <div class="bar bar-large"></div>
+                  <div class="bar bar-medium"></div>
+                  <div class="bar bar-small"></div>
+                  <div class="bar bar-medium"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="features" class="features-section">
+          <div class="section-header">
+            <span class="eyebrow">Built for modern teams</span>
+            <h2>Everything needed to present a premium product.</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <span class="feature-icon">⚡</span>
+              <h3>Fast experience</h3>
+              <p>Optimized layout and lightweight assets deliver exceptional responsiveness across every device.</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon">🎨</span>
+              <h3>Polished design</h3>
+              <p>Elegant spacing, soft shadows, and modern typography create a premium first impression.</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon">🔐</span>
+              <h3>Reliable backend</h3>
+              <p>Express-powered API routes are structured for production readiness and future growth.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="status" class="status-section">
+          <div class="status-panel">
+            <div>
+              <span class="eyebrow">API health</span>
+              <h2>Server status in real time.</h2>
+              <p>Connects to the backend endpoint and displays your server state with a clean loading flow.</p>
+            </div>
+            <div class="status-card" id="apiStatusCard">
+              <div class="status-badge" id="statusBadge">Loading...</div>
+              <p class="status-message">Fetching API status from the backend.</p>
+            </div>
+          </div>
+          <div class="status-preview">
+            <div class="status-highlight">Ready for launch</div>
+            <p>Use this section to show live backend connectivity and provide confidence in your application's infrastructure.</p>
+          </div>
+        </section>
+      </main>
+
+      <footer id="footer" class="site-footer">
+        <p>Pulse Labs © 2026 · Crafted for startups, product teams, and fast-moving SaaS brands.</p>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
